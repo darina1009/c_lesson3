@@ -1,4 +1,6 @@
-﻿void Task2(){
+﻿using System;
+using System.Collections.Generic;
+
     
     Console.WriteLine("Введите  число");
     string input = Console.ReadLine();
@@ -21,6 +23,3 @@
     } else {
         Console.WriteLine("Net");
     }
-}
-
-Task2();
